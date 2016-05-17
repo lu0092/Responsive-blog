@@ -1,24 +1,147 @@
-/* Responsive */
-
-@media screen and (max-width : 920px) {
-
-}
-
 @media screen and (max-width: 600px) {
+  .menu {
+    display: inline-block; }
 
-}
+  button {
+    margin-top: 4%; }
+
+  .logo {
+    display: inline-block; }
+
+  .fondo-flower {
+    width: 100%;
+    padding: 2%; }
+
+  .medio {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+
+  .font {
+    font-size: 15px; } }
 body {
-	border: 1px solid rgba(255,255,255,0.4);
-	background-color: #2c2434;
-}
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background-color: #2c2434;
+  font-family: "Courgette", cursive; }
+
 a {
-	text-decoration:none;
-}
+  text-decoration: none;
+  color: #FFF; }
+
+.lista > .listita {
+  list-style-type: none;
+  display: inline-block; }
+
 .fondo-negro {
-	width: 100%;
-	background-color: #1c1c24;
-	background-size: contain;
-	}
+  background-color: #1c1c24;
+  background-size: contain; }
+
+.aw {
+  width: 100%; }
+
+.fondo-flower {
+  background-image: url(../image/header-image.jpg);
+  background-size: cover;
+  background-position: 33% 0%; }
+
+.prueba {
+  padding: 5%; }
+
+.col-blanco {
+  color: #FFF; }
+
 .logo {
-	height: 55px;
-}
+  height: 60px; }
+
+.padt-2 {
+  padding-top: 2%; }
+
+.padl-2 {
+  padding-left: 2%; }
+
+.padr-2 {
+  padding-right: 2%; }
+
+.padl-3 {
+  padding-left: 3%; }
+
+.padr-3 {
+  padding-right: 3%; }
+
+.pad-10 {
+  padding: 8%; }
+
+.pad-2 {
+  padding: 2%; }
+
+.pad-5 {
+  padding: 5%; }
+
+.mar-6 {
+  margin: 6%; }
+
+.mart-4 {
+  margin-top: 4%; }
+
+.marb-4 {
+  margin-bottom: 4%; }
+
+.font {
+  font-size: 90px;
+  color: #f4bc6c;
+  font-weight: bold; }
+
+.no-pad {
+  padding: 0; }
+
+.lista-flower {
+  width: 28.5%; }
+
+.marl7 {
+  margin-left: 7%; }
+
+.marr7 {
+  margin-right: 7%; }
+
+.martb2 {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%; }
+
+.marlr2 {
+  margin-left: 2%;
+  margin-right: 2%; }
+
+.col-naranja {
+  color: #f4bc6c; }
+
+.font-list {
+  font-weight: 100;
+  font-size: 15px; }
+
+.padb2 {
+  padding-bottom: 2%; }
+
+.font-description {
+  font-family: Arial, sans-serif; }
+
+.fondo-icon {
+  border: 1px solid #2c2434;
+  border-radius: 100%;
+  padding: 25% 30.5%;
+  background-color: #2c2434; }
+
+.buscador {
+  width: 80%;
+  background-color: #2c2434;
+  font-size: 17px;
+  font-family: Arial, sans-serif;
+  padding-left: 2%; }
+
+.font-arial {
+  font-family: Arial,sans-serif;
+  font-size: 12px; }
+
+span {
+  color: #2c2434; }
+
+/*# sourceMappingURL=main.css.map */
