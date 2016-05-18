@@ -2,7 +2,7 @@ $tipografia:'Courgette', cursive;
 $negro: #000;
 $blanco: #FFF;
 $naranja: #f4bc6c;
-$fontsize: 90px;
+$fontsize: 70px;
 $azuloscuro: #1c1c24;
 $fontsizesmall: 12px;
 $fontsizemed: 15px;
@@ -12,11 +12,11 @@ $allwidth: 100%;
 $halfwidth: 50%;
 $pad-2:2%;
 $m3:3%;
-$pad-10:8%;
+$pad-10:8% 15%;
+$m8: 8%;
 $backflower: url(../image/header-image.jpg);
 $backcover: cover;
 $mar-6: 6%;
-$mart-4:4%;
 $center45: 33% 0%;
 $center: center;
 $m20: 12%;
@@ -24,35 +24,9 @@ $weight:bold;
 $m7-5: 7%;
 $m5: 5%;
 $m2-5: 2.5%;
+$mart-4: 4%;
 
-@media screen and (max-width : 920px) {
 
-}
-
-@media screen and (max-width: 600px) {
- .menu {
- 	display: inline-block;
-  }
- button {
- 	margin-top: 4%;
- }
- .logo {
- 	display: inline-block;
- }
- .fondo-flower {
- 	width: 100%;
- 	padding: 2%;
- }
- .medio {
- 	width: 100%;
- 	padding: 0;
- 	margin: 0;
-
- }
- .font {
- 	font-size: 15px;
- }
-}
 body {
 	border: 1px solid rgba(255,255,255,0.4);
 	background-color:$morado;
@@ -92,7 +66,7 @@ a {
 .pad-2{padding: $pad-2;}
 .pad-5 { padding: $m5; }
 .mar-6 {margin:$mar-6;}
-.mart-4 {margin-top:$mart-4;}
+.mart-4{ margin-top:$mart-4;}
 .marb-4 {margin-bottom:$mart-4;}
 .font {font-size: $fontsize;color: $naranja;font-weight: $weight;}
 .no-pad {padding: 0;}
@@ -112,4 +86,61 @@ a {
 .font-arial {font-family:Arial,sans-serif; font-size:12px;}
 span {
 	color: $morado; 
+}
+pad-3 {
+	padding-left:3px;
+}
+pad-8 {
+	padding-right:8px;
+}
+
+@media screen and (max-width : 920px) {
+
+}
+
+@media screen and (max-width: 600px) {
+ .menu {
+ 	display: inline-block;
+  }
+ button {
+ 	margin-top: 4%;
+ }
+ .logo {
+ 	display: inline-block;
+ }
+ .fondo-flower {
+ 	width: 100%;
+ 	padding: 2%;
+ }
+ .medio {
+ 	width: 100%;
+ 	padding: 0;
+ 	margin: 0;
+ }
+ .font {
+ 	font-size: 60px;
+ }
+ button {
+ 	margin-top:10px;
+ }
+ .pad-10 {
+ 	padding: $m8;
+ }
+ .martb2,.mar17,.lista-flower{
+ 	margin:0;
+ 	width:100%;
+ }
+ .mar17 {
+	 margin-left:0;
+ }
+ .text-peque {
+ 	font-size:12px;
+ 	padding: 0;
+ }
+ .pad{
+ 	padding-left:14px;
+ }
+ iframe {
+ 	width:100%;
+ }
 }

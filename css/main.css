@@ -1,24 +1,3 @@
-@media screen and (max-width: 600px) {
-  .menu {
-    display: inline-block; }
-
-  button {
-    margin-top: 4%; }
-
-  .logo {
-    display: inline-block; }
-
-  .fondo-flower {
-    width: 100%;
-    padding: 2%; }
-
-  .medio {
-    width: 100%;
-    padding: 0;
-    margin: 0; }
-
-  .font {
-    font-size: 15px; } }
 body {
   border: 1px solid rgba(255, 255, 255, 0.4);
   background-color: #2c2434;
@@ -69,7 +48,7 @@ a {
   padding-right: 3%; }
 
 .pad-10 {
-  padding: 8%; }
+  padding: 8% 15%; }
 
 .pad-2 {
   padding: 2%; }
@@ -87,7 +66,7 @@ a {
   margin-bottom: 4%; }
 
 .font {
-  font-size: 90px;
+  font-size: 70px;
   color: #f4bc6c;
   font-weight: bold; }
 
@@ -143,5 +122,56 @@ a {
 
 span {
   color: #2c2434; }
+
+pad-3 {
+  padding-left: 3px; }
+
+pad-8 {
+  padding-right: 8px; }
+
+@media screen and (max-width: 600px) {
+  .menu {
+    display: inline-block; }
+
+  button {
+    margin-top: 4%; }
+
+  .logo {
+    display: inline-block; }
+
+  .fondo-flower {
+    width: 100%;
+    padding: 2%; }
+
+  .medio {
+    width: 100%;
+    padding: 0;
+    margin: 0; }
+
+  .font {
+    font-size: 60px; }
+
+  button {
+    margin-top: 10px; }
+
+  .pad-10 {
+    padding: 8%; }
+
+  .martb2, .mar17, .lista-flower {
+    margin: 0;
+    width: 100%; }
+
+  .mar17 {
+    margin-left: 0; }
+
+  .text-peque {
+    font-size: 12px;
+    padding: 0; }
+
+  .pad {
+    padding-left: 14px; }
+
+  iframe {
+    width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
